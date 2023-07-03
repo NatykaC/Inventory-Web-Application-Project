@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🍰 Sweet Treats 🍰</title>
+    <title>🍰 Dee's Sweet Treats 🍰</title>
     <link rel="stylesheet" href="./styles.css"/>
     <script defer src="./main.js"></script>
 </head>
 
 <body>
-    <h1 class="welcome">🍰 Welcome To Sweet Treats 🍰</h1>
+    <h1 class="welcome">🍰 Welcome To Dee's Sweet Treats 🍰</h1>
     <h3 class="statement">
         <p id="about">
             Have a sweet tooth? Love tasty treats? If you answered yes to any of those questions then 🍰Sweet Treats🍰 has the perfect snack for you! 
@@ -49,28 +49,28 @@
                 <p id="cookie-remove">Remove</p>
         </div>
     </form>
-    <form>
+    <form id="new-addition">
         <div class="new-product">
             <h3 id="nsweet-treat"> Add A New Sweet Treat</h3>
-                <label for="new-product">
+                <label for="add-treat">
                     Sweet Name <br>
                     <input id="add-treat" name="new-treat" type="text" required/>
                 </label> 
                 <br>
                 <br>
-                <label for="new-product-price">
+                <label for="add-treat-price">
                     Sweet Price <br>
                     <input id="add-treat-price" name="new-treat-price" type="text" required/>
                 </label> 
                 <br>
                 <br>
-                <label for="new-product-image">
+                <label for="add-treat-image">
                     Sweet Image URL <br>
                     <input id="add-treat-image" name="new-treat-image" type="text" required/>
                 </label> 
                 <br>
                 <br>
-                <label for="in-stock">
+                <label for="instock-outofstock">
                     In Stock <br>
                     <select id="instock-outofstock" name="availability">
                         <option>-- Select a category --</option>
@@ -80,22 +80,22 @@
                 </label>
                   <br>
                 <h4 id="new-gluten">Gluten Free?</h4>
-                    <label for="gluten-yes">
+                    <label for="gluten-free">
                         Yes
                         <input id="gluten-free" name="gluten" type="radio" value="yes"/>
                     </label>
-                    <label for="gluten-no">
+                    <label for="not-gluten-free">
                         No
                         <input id="not-gluten-free" name="gluten" type="radio" value="no"/>
                     </label>
                     <br>
                     <br>
                 <h4 id="new-nuts">Contains Nuts?</h4>
-                    <label for="nuts-yes">
+                    <label for="nut-free">
                         Yes
                         <input id="nut-free" name="nuts" type="radio" value="yes"/>
                     </label>
-                    <label for="nuts-no">
+                    <label for="has-nuts">
                         No
                         <input id="has-nuts" name="nuts" type="radio" value="no"/>
                     </label>
