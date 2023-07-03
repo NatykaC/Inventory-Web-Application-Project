@@ -47,24 +47,26 @@ const removeCookies = document.querySelector("#cookie-remove");
         rockyRoadCookies.remove()
     });
 
-const existingProductsPage = document.querySelector(".new-product")
+const existingProductsPage = document.querySelector(".new-product");
 const addNewSweetTreat = document.querySelector("#new-addition");
     addNewSweetTreat.addEventListener("submit", (event) =>{
-        console.log("event.target: ", event.target["add-treat"].value)
-        event.preventDefault()
-        const newSweetTreatName = document.createElement("div")
+        event.preventDefault();
+        const newSweetTreatName = document.createElement("h4");
             newSweetTreatName.innerText = event.target["add-treat"].value
                 existingProductsPage.append(newSweetTreatName)
-        const newSweetTreatPrice = document.createElement("div")
-            newSweetTreatPrice.innerText = event.target["add-treat-price"].value
-                existingProductsPage.append(newSweetTreatPrice)
-        const newSweetTreatImage = document.createElement("img")
+        const newSweetTreatImage = document.createElement("img");
             newSweetTreatImage.setAttribute("src", event.target["add-treat-image"].value) 
             newSweetTreatImage.setAttribute("height", "100")
             newSweetTreatImage.setAttribute("width", "100")
                 existingProductsPage.append(newSweetTreatImage)  
-            
-            
-        event.target.reset()
+        const newSweetTreatPrice = document.createElement("p");
+            newSweetTreatPrice.innerText = event.target["add-treat-price"].value
+                existingProductsPage.append(newSweetTreatPrice)
+        event.target.reset();
+    });
 
-    })
+    const resetButton = document.querySelector("#reset-form");
+        resetButton.addEventListener("submit", (event) =>{
+        resetButton.reset()
+    });
+
