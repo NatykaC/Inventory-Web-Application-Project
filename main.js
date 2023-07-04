@@ -74,7 +74,7 @@ const cakePicture = document.querySelector("#whole-cake");
     cakePicture.addEventListener("click", (event) =>{
         const cakeSection = document.querySelector(".cake");
         const cakeInfoSection = document.createElement("section");
-        cakeInfoSection.innerText = "Some Facts about this cake"
+        cakeInfoSection.innerText = "Calories per slice: 399"
         cakeSection.append(cakeInfoSection)
     });
 
@@ -82,36 +82,15 @@ const browniePicture = document.querySelector("#dozen-brownies");
     browniePicture.addEventListener("click", (event) =>{
         const brownieSection = document.querySelector(".brownies");
         const brownieInfoSection = document.createElement("section");
-        brownieInfoSection.innerText = "Some Facts about this cake"
+        brownieInfoSection.innerText = "Calories per brownie: 250"
         brownieSection.append(brownieInfoSection)
     });
 const cookiePicture = document.querySelector("#dozen-cookies");
     cookiePicture.addEventListener("click", (event) =>{
         const cookieSection = document.querySelector(".cookies");
         const cookieInfoSection = document.createElement("section");
-        cookieInfoSection.innerText = "Some Facts About This Cake"
+        cookieInfoSection.innerText = "Calories per cookie: 320"
         cookieSection.append(cookieInfoSection)
     });
     
 
-// const addTreatName = document.querySelector("#add-treat");
-// const addTreatPrice = document.querySelector("#add-treat-price");
-// const addTreatImage = document.querySelector("#add-treat-image");
-// const errorMessage = document.querySelector(".error-message");
-// const entireForm = document.querySelector("#new-addition");
-// entireForm.addEventListener("submit", (event) =>{
-//     let messages = [];
-//     // if (addTreatName.value === "" || addTreatName.value === null){
-//     //     messages.push("Name is required!!!")
-//     // }
-//     if (addTreatPrice.value === "" || addTreatPrice.value === null || addTreatPrice.value < 0){
-//         messages.push("Price is required!!!")
-//     }
-//     if (addTreatImage.value === "" || addTreatImage.value === null){
-//         messages.push("Image URL required!!!")
-//     }
-//     if (messages.length > 0){
-//         event.preventDefault()
-//         errorMessage.innerText = messages.join(", ")
-//     }
-// })
