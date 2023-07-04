@@ -2,16 +2,13 @@
     background-color:seashell;
      
 }
-
 .statement {
     color:rgba(103, 47, 8, 0.992);
     text-align: center;
     font-size:large;
     font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
-
 .welcome {
     background-color:rgba(103, 47, 8, 0.992);
     color:bisque;
@@ -19,38 +16,117 @@
     text-decoration: wavy;
     font-family: fantasy;
 }
-
 .whole-thing {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-
 #reset-form {
     grid-column: 4;
 }
-
 .cake {
     color:rgba(103, 47, 8, 0.992);          
 }
 #coconut {
     font-weight: bolder;
-    font-size: large;
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: sans-serif;
 }
-
-
+#cake-price {
+    font-size: large;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+#cake-nuts {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+#cake-gluten {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+#cake-submit {
+    color: green;
+    font-size:x-large;
+    font-weight: bold;
+}
+#cake-remove {
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+}
 .brownies {
     color:rgba(103, 47, 8, 0.992);  
 }
 
 #marble {
     font-weight: bolder;
-    font-size: large;
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: sans-serif;
 }
-
+#brownie-price {
+    font-size: large;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+#brownie-nuts {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+#brownie-gluten {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+#brownie-submit {
+    color: green;
+    font-size:x-large;
+    font-weight: bold;
+}
+#brownie-remove {
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+}
 .cookies {
     color:rgba(103, 47, 8, 0.992);  
 }
 #rocky-road {
     font-weight: bolder;
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+#cookie-price {
     font-size: large;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+#cookie-nuts {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+#cookie-gluten {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+#cookie-submit {
+    color: green;
+    font-size:x-large;
+    font-weight: bold;
+}
+#cookie-remove {
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+}
+#new-addition {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(90, 42, 7);
 }
