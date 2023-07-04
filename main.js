@@ -5,10 +5,8 @@ const cakeSubmit = document.querySelector("#cake-submit");
             cakeInStock ?
                 cakeSubmit.innerText = "In Stock"
                 :   
-                cakeSubmit.innerText = "Out of Stock"
-                   
+                cakeSubmit.innerText = "Out of Stock"                
     });
-
 let brownieInStock = true;
 const brownieSubmit = document.querySelector("#brownie-submit");
     brownieSubmit.addEventListener("click", (event) =>{
@@ -18,7 +16,6 @@ const brownieSubmit = document.querySelector("#brownie-submit");
                 :
                 brownieSubmit.innerText = "Out of Stock"
     });
-
 let cookieInStock = true;
 const cookieSubmit = document.querySelector("#cookie-submit");
     cookieSubmit.addEventListener("click", (event) =>{
@@ -28,25 +25,21 @@ const cookieSubmit = document.querySelector("#cookie-submit");
                 :
                 cookieSubmit.innerText = "Out of Stock"
     });
-
 const coconutCake = document.querySelector(".cake");
 const removeCake = document.querySelector("#cake-remove");
     removeCake.addEventListener("click", (event) =>{
         coconutCake.remove()
     });
-
 const marbleBrownie = document.querySelector(".brownies");
 const removeBrownie = document.querySelector("#brownie-remove");
     removeBrownie.addEventListener("click", (event) =>{
         marbleBrownie.remove()
     });
-
 const rockyRoadCookies = document.querySelector(".cookies");
 const removeCookies = document.querySelector("#cookie-remove");
     removeCookies.addEventListener("click", (event) => {
         rockyRoadCookies.remove()
     });
-
 const existingProductsPage = document.querySelector(".new-product");
 const addNewSweetTreat = document.querySelector("#new-addition");
     addNewSweetTreat.addEventListener("submit", (event) =>{
@@ -64,12 +57,10 @@ const addNewSweetTreat = document.querySelector("#new-addition");
                 existingProductsPage.append(newSweetTreatPrice)
         event.target.reset();
     });
-
 const resetButton = document.querySelector("#reset-form");
     resetButton.addEventListener("submit", (event) =>{
     resetButton.reset()
     });
-
 const cakePicture = document.querySelector("#whole-cake");
     cakePicture.addEventListener("click", (event) =>{
         const cakeSection = document.querySelector(".cake");
@@ -77,7 +68,6 @@ const cakePicture = document.querySelector("#whole-cake");
         cakeInfoSection.innerText = "Calories per slice: 399"
         cakeSection.append(cakeInfoSection)
     });
-
 const browniePicture = document.querySelector("#dozen-brownies");
     browniePicture.addEventListener("click", (event) =>{
         const brownieSection = document.querySelector(".brownies");

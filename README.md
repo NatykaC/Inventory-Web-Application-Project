@@ -15,13 +15,16 @@ Bonus: Caloric information for each product is provided below the product when y
 
 There is also a form to create a new 'Sweet Treat' of your own!
 
-To create a new Sweet Treat:
-Required
+How to create a new 'Sweet Treat':
+
+Information below is required to create a new 'Sweet Treat'
+
 1 - Enter the name of your 'Sweet Treat'
 2 - Enter the price for your 'Sweet Treat'
 3 - Enter the image URL for your 'Sweet Treat'
 4 - Submit!
-Your own 'Sweet Treat' will displayed on the page along with the other products. 
+
+Your own 'Sweet Treat' will be displayed on the page along with the other products. 
 
 
 
